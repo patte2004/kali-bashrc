@@ -154,3 +154,6 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
+
+#echo -e "$(curl -s -H "Accept-Language: de" wttr.in/Germersheim?format="%l:+%c%t(%f)+%C")\n"
+echo -e "$(curl -s -H "Accept-Language: de" wttr.in/~49.2222749,8.36659?format="%l:+%c%t(%f)+%C")\n"
